@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'table'
+    'tracks'
 ]
 
 MIDDLEWARE = [
@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'tracksHomework.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'table.db',
+        'NAME': 'tracks',
         'USER':'postgres',
-        'PASSWORD':'postgres',
+        'PASSWORD':'123',
         'HOST': 'localhost'
     }
 }
